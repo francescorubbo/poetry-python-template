@@ -1,0 +1,1 @@
+Template repository for Python projects managed with Poetry
