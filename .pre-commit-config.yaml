@@ -1,0 +1,16 @@
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.7.3
+    hooks:
+      - id: ruff
+        args: [ --fix ]
+      - id: ruff-format
+  - repo: https://github.com/francescorubbo/deptry-pre-commit
+    rev: v0.21.0
+    hooks:
+      - id: deptry
+        args: [ ]
+  - repo: https://github.com/jvllmr/poetry-types
+    rev: v0.5.1
+    hooks:
+      - id: poetry-types
