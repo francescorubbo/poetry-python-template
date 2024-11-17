@@ -24,4 +24,4 @@ jobs:
       - name: Install the project dependencies
         run: poetry install
       - name: Run pytest
-        run: poetry run pytest tests
+        run: poetry run pytest tests/*
